@@ -1,7 +1,7 @@
 <?php
 
 
-echo '<pre>'; print_r($_POST);
+ echo "Hello Admin";
 
 if($_POST['login'] == 'sandy') {
     // user ok
@@ -13,4 +13,3 @@ if($_POST['login'] == 'sandy') {
 }
 
 
-header('Location:index.php?r=homepage');
